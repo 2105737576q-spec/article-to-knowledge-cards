@@ -1,0 +1,8 @@
+name: make-knowledge-cards
+description: >-
+  将用户粘贴的文章或本地 Markdown / TXT 文本文件，转换为 5~8 张知识卡片。
+  每张卡片包含：标题、核心知识、简明解释、例子或自测问题。仅处理纯文本输入，
+  不支持网页抓取、PDF、Anki 和图形界面。
+model: gpt-4o
+instructions: ./SKILL.md
+tools: []
